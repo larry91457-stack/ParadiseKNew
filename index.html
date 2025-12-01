@@ -750,16 +750,11 @@
         <section id="gallery" class="section-light">
             <h2>Gallery</h2>
             <p class="section-subtitle">A glimpse of our culinary creations and event setups</p>
-            <div class="image container">
-                <!-- Primary Image -->
-                <div class="Primary Image">
+            <div class="gallery-grid">
+                <div class="gallery-item">
                     <img src="https://tse1.mm.bing.net/th/id/OIP.OvTo_rSLWL3pcc8eGdStcAHaFj?rs=1&pid=ImgDetMain&o=7&rm=3.wemp" 
-                         alt="Catering at Paradise Kitchen" loading="lazy">
-                    <div class="Primary Image">
-                        <!-- Extra Images -->
-                         <img src="https://image2url.com/images/1764577773982-b2d3fbde-d156-42b2-a8d9-7f6228468709.jpg" alt="Extra Image 1" class="extra-image" style="top: 20px; left: 20px;">
-                         <img src="images/extra-image1.png" alt="Extra Image 1" class="extra-image" style="top: 20px; left: 20px;">
-                         <img src="images/extra-image1.png" alt="Extra Image 1" class="extra-image" style="top: 20px; left: 20px;">
+                         alt="Catering at Paradise Kitchen" loading="lazy" onclick="openModal(this.src)">
+                    <div class="gallery-overlay">
                         <h3>Event Catering</h3>
                     </div>
                 </div>
@@ -1223,7 +1218,6 @@
 </body>
 
 </html>
-
 
 
 
